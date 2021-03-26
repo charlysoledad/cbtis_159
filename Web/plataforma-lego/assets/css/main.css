@@ -1,0 +1,203 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family: 'Nova Square', cursive;
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+h1,h2,h3,h4{
+    text-transform: uppercase;
+}
+h2{
+    font-size: 1.2em;
+    line-height: 2.2;
+}
+
+.title{
+    font-size: 1.4em;
+    margin-bottom: 2%;
+}
+body{
+    width: 100%;
+    background-size: 100%;
+    background-image: url("../../img/background-lego.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 0;
+}
+
+.page-wrapper{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+header {
+    height: 120px;
+    background-image: url("../../img/fondo-header.png");
+    background-repeat: no-repeat;
+    background-position: center 100%;
+}
+
+header .contenedor{
+    padding: 2% 0;
+}
+
+.contenido {
+    margin-top: 6%;
+}
+
+.box{
+    position: relative;
+    float: left;
+    width: 32%;
+    height: 350px;
+    margin: 0;
+    background-color: #0066ad;
+}
+
+
+.second-box {
+    margin-left: 2%;
+}
+
+.third-box{
+    float: right;
+}
+
+.label{
+    text-align: center;
+    position: absolute;
+    width: 80%;
+    height: 40px;
+    left: -10px;
+    bottom: 35px;
+    background-color: #ff0000;
+    z-index: 99;
+}
+
+.label:before {
+    content:"";
+    position:absolute;
+    top: 0px;
+    right: -10px;
+    border-width: 50px 50px 0px 0px;
+    border-style:solid;
+    -moz-transform: rotate(160deg);  
+    border-color:#0066ad transparent transparent #0066ad ;
+}
+
+.label h2 {
+    position: absolute;
+    left: 18%;
+}
+
+.box .image {
+    position: relative;
+    width: 90%;
+    margin: 14% auto;
+}
+
+.box .image img {
+    width: 100%;
+}
+
+a:hover .box .image {
+    width: 95%;
+}
+
+.second-box .image, .third-box .image {
+    margin: 3% auto;
+}
+.second-box .image img, .third-box .image img {
+    width: 90%;
+}
+
+.navigation{
+    position: relative;
+    min-height: 0;
+    width: 100%;
+    background-color: #ff0000;
+    text-align: center;
+}
+.navigation ul{
+    float: none;
+}
+.navigation ul li{
+    display: inline-block;
+}
+
+.navigation ul li a{
+    font-size: 17px;
+    padding: 10px 12px;
+    line-height: 24px;
+    display: block;
+}
+
+.navigation ul li a:hover{
+    background-color: #ac0000;
+}
+
+.contenido{
+    position: relative;
+}
+.lessons{
+    width: 100%;
+    display: block;
+}
+
+.lessons li{
+    position: relative;
+    display: block;
+    margin-bottom: 2%;
+}
+
+.lessons-content{
+    width: 25%;
+    float: left;
+    position: absolute;
+}
+
+.contenido-pdf{
+    position: absolute;
+    left: 25%;
+    width: 75%;
+    height: 100vh;
+}
+
+.lector-pdf{
+width: 100%;
+height: inherit;
+
+}
+.lessons li a{
+    width: 70%;
+    display: block;
+    margin: 0%!important;
+    font-size: 16px;
+    padding: 10px ;
+    line-height: 20px;
+    border: 2px solid #ff0000;
+}
+
+.lessons li a:hover{
+    width: 78%;
+    font-size: 17px;
+    background-color: #fff;
+    color:#000;
+    border-radius: 0 25px 25px 0;
+}
+.lessons li button{
+    background-color: rgba(0, 0, 0, 0.0);
+}
+
+footer{
+    float: left;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Programming</title>
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Nova+Square" rel="stylesheet"> 
+</head>
+<body>
+    <section class="page-wrapper">
+        <header>
+            <div class="contenedor">
+                <h1>Curso <b>Learn-E</b> LEGO Mindstorms EV3 </h1>
+            </div>
+        </header>
+        <nav class="navigation">
+                <ul>
+                    <li><a href="../index.php">Inicio</a></li>
+                    <li><a href="#">Programaci&oacute;n</a></li>
+                    <li><a href="#">Construcci&oacute;n</a></li>
+                    <li><a href="#">Sobre EV3</a></li>
+                </ul>
+        </nav>
+        <section class="contenedor contenido">
+            <!--
+            <object data="../resources/program-desc.pdf" type="application/pdf" width="80%" height="100vh">
+                <p>Alternative text - include a link <a href="../resources/program-desc.pdf">to the PDF!</a></p>
+            </object>
+            <embed src= "../resources/bloquesdeaccion.pdf" width= "90%" height= "600px">
+            -->
+            <div>
+                <ul class="lessons">
+                    <li><a href="lesson1/">Clase 1</a></li>
+                    <li><a href="#">Clase 2</a></li>
+                    <li><a href="#">Clase 3</a></li>
+                    <li><a href="#">Clase 4</a></li>
+                    <li><a href="#">Clase 5</a></li>
+                    <li><a href="#">Clase 6</a></li>
+                    <li><a href="#">Clase 7</a></li>
+                    <li><a href="#">Clase 8</a></li>
+                </ul>
+            </div>
+        </section>
+    </section>
+</body>
+</html>
